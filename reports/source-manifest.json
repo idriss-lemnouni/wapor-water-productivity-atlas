@@ -1,0 +1,138 @@
+[
+  {
+    "code": "WAPOR-3.L1-AETI-A.2022",
+    "year": 2022,
+    "level": "L1",
+    "indicator": "AETI",
+    "unit": "mm/year",
+    "scale": 0.1,
+    "url": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L1-AETI-A/WAPOR-3.L1-AETI-A.2022.tif?generation=1778402974569101",
+    "generation": "1778402974569101",
+    "object_bytes": 5041482700,
+    "file": "WAPOR-3.L1-AETI-A.2022.tif",
+    "shape": [
+      41,
+      74
+    ],
+    "sha256": "60debb2caa520872d367748ab2a8e4646cf68b80fe24c2627ccb3c62355171bd"
+  },
+  {
+    "code": "WAPOR-3.L2-AETI-A.2022",
+    "year": 2022,
+    "level": "L2",
+    "indicator": "AETI",
+    "unit": "mm/year",
+    "scale": 0.1,
+    "url": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L2-AETI-A/WAPOR-3.L2-AETI-A.2022.tif?generation=1778648216114476",
+    "generation": "1778648216114476",
+    "object_bytes": 9925811020,
+    "file": "WAPOR-3.L2-AETI-A.2022.tif",
+    "shape": [
+      121,
+      222
+    ],
+    "sha256": "83f85eba212fbb2b4ebbc86e07c4ba677ee7c540026005c7583bbb5a1b69669c"
+  },
+  {
+    "code": "WAPOR-3.L1-GBWP-A.2022",
+    "year": 2022,
+    "level": "L1",
+    "indicator": "GBWP",
+    "unit": "kg/m\u00b3",
+    "scale": 0.001,
+    "url": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L1-GBWP-A/WAPOR-3.L1-GBWP-A.2022.tif?generation=1778402957858245",
+    "generation": "1778402957858245",
+    "object_bytes": 4245234928,
+    "file": "WAPOR-3.L1-GBWP-A.2022.tif",
+    "shape": [
+      41,
+      74
+    ],
+    "sha256": "b8d95ebb43270a97a4375503a291c99daa21671a9eb1739e0cf2ffda8620e7f0"
+  },
+  {
+    "code": "WAPOR-3.L2-GBWP-A.2022",
+    "year": 2022,
+    "level": "L2",
+    "indicator": "GBWP",
+    "unit": "kg/m\u00b3",
+    "scale": 0.001,
+    "url": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L2-GBWP-A/WAPOR-3.L2-GBWP-A.2022.tif?generation=1778651290790042",
+    "generation": "1778651290790042",
+    "object_bytes": 6829875888,
+    "file": "WAPOR-3.L2-GBWP-A.2022.tif",
+    "shape": [
+      121,
+      222
+    ],
+    "sha256": "4af520c98adfd7c79bb90564657bddc20168decb9d5d543ec72af025a02c6a9b"
+  },
+  {
+    "code": "WAPOR-3.L1-AETI-A.2023",
+    "year": 2023,
+    "level": "L1",
+    "indicator": "AETI",
+    "unit": "mm/year",
+    "scale": 0.1,
+    "url": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L1-AETI-A/WAPOR-3.L1-AETI-A.2023.tif?generation=1778403019327541",
+    "generation": "1778403019327541",
+    "object_bytes": 5064648043,
+    "file": "WAPOR-3.L1-AETI-A.2023.tif",
+    "shape": [
+      41,
+      74
+    ],
+    "sha256": "613ccc5353a523a9d31ddea609aecfce72d04d425f6872bdcd1838b2d74808fe"
+  },
+  {
+    "code": "WAPOR-3.L2-AETI-A.2023",
+    "year": 2023,
+    "level": "L2",
+    "indicator": "AETI",
+    "unit": "mm/year",
+    "scale": 0.1,
+    "url": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L2-AETI-A/WAPOR-3.L2-AETI-A.2023.tif?generation=1778610156987195",
+    "generation": "1778610156987195",
+    "object_bytes": 9897292855,
+    "file": "WAPOR-3.L2-AETI-A.2023.tif",
+    "shape": [
+      121,
+      222
+    ],
+    "sha256": "7c089b3e50fd7dfd90f616dfe32455cf2fa2a9d24b231210223fe9d67afa65f1"
+  },
+  {
+    "code": "WAPOR-3.L1-GBWP-A.2023",
+    "year": 2023,
+    "level": "L1",
+    "indicator": "GBWP",
+    "unit": "kg/m\u00b3",
+    "scale": 0.001,
+    "url": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L1-GBWP-A/WAPOR-3.L1-GBWP-A.2023.tif?generation=1778402982873273",
+    "generation": "1778402982873273",
+    "object_bytes": 4266121225,
+    "file": "WAPOR-3.L1-GBWP-A.2023.tif",
+    "shape": [
+      41,
+      74
+    ],
+    "sha256": "0e4cd984d2a83d693db7ccd9ecc370a91cb3f3edd1adc2fe0ea5ab54d1d31234"
+  },
+  {
+    "code": "WAPOR-3.L2-GBWP-A.2023",
+    "year": 2023,
+    "level": "L2",
+    "indicator": "GBWP",
+    "unit": "kg/m\u00b3",
+    "scale": 0.001,
+    "url": "https://storage.googleapis.com/fao-gismgr-wapor-3-data/DATA/WAPOR-3/MAPSET/L2-GBWP-A/WAPOR-3.L2-GBWP-A.2023.tif?generation=1778611389469021",
+    "generation": "1778611389469021",
+    "object_bytes": 6858046706,
+    "file": "WAPOR-3.L2-GBWP-A.2023.tif",
+    "shape": [
+      121,
+      222
+    ],
+    "sha256": "f67f81da452149acf985dda4b3750c5861130b464ee1e65501edcd160a49a900"
+  }
+]

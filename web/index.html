@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WaPOR Water Productivity Atlas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="anonymous"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=">
+  <link rel="stylesheet" href="atlas.css">
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="anonymous"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="></script>
+  <script defer src="atlas.js"></script>
+</head>
+<body>
+  <header>
+    <p class="location">Moulay Bousselham · Morocco</p>
+    <h1>WaPOR Water Productivity Atlas</h1>
+  </header>
+  <main>
+    <form aria-label="Atlas filters">
+      <label>Indicator<select id="indicator">
+        <option value="AETI">Evapotranspiration and interception</option>
+        <option value="GBWP">Gross biomass water productivity</option>
+      </select></label>
+      <label>Year<select id="year"><option>2023</option><option>2022</option></select></label>
+      <label>Grid<select id="level"><option value="L2">L2 · about 100 m</option><option value="L1">L1 · about 300 m</option></select></label>
+    </form>
+    <p id="status" role="status">Loading zones…</p>
+    <div class="study">
+      <section class="cartography" aria-label="Map and legend">
+        <div id="map" aria-label="Map of the two analysis zones"></div>
+        <div class="legend" id="legend" aria-label="Area-weighted mean legend"></div>
+      </section>
+      <section id="details" aria-label="Zonal estimates"></section>
+    </div>
+    <footer>Annual WaPOR v3 observations for two analysis polygons. <a href="https://www.fao.org/contact-us/terms/db-terms-of-use/">FAO data terms</a>.</footer>
+  </main>
+</body>
+</html>

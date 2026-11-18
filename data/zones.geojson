@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"id": "lagoon-edge", "name": "Moulay Bousselham lagoon and edge"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-6.3050, 34.8810], [-6.2470, 34.8515], [-6.2172, 34.8857], [-6.2582, 34.9225], [-6.3050, 34.8810]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"id": "inland-plain", "name": "Plain east of the lagoon"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-6.1953, 34.9012], [-6.1391, 34.8958], [-6.1214, 34.9277], [-6.1767, 34.9391], [-6.1953, 34.9012]]]
+      }
+    }
+  ]
+}

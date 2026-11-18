@@ -1,0 +1,18 @@
+services:
+  database:
+    image: postgis/postgis:16-3.5-alpine
+    environment:
+      POSTGRES_USER: wapor
+      POSTGRES_DB: wapor
+      POSTGRES_PASSWORD: ${ATLAS_DB_PASSWORD:?Set the local atlas database password}
+    ports:
+      - "127.0.0.1:55413:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U wapor -d wapor"]
+      interval: 2s
+      timeout: 2s
+      retries: 30
+    volumes:
+      - atlas_db:/var/lib/postgresql/data
+volumes:
+  atlas_db:
